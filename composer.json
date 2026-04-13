@@ -1,5 +1,5 @@
 {
-    "name": "anthony/recurrence",
+    "name": "antnavdev/recurrence",
     "description": "Evaluate whether a recurring rule string is due on a given date.",
     "type": "library",
     "license": "MIT",
@@ -12,12 +12,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Anthony\\Recurrence\\": "src/"
+            "AntNavDev\\Recurrence\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Anthony\\Recurrence\\Tests\\": "tests/"
+            "AntNavDev\\Recurrence\\Tests\\": "tests/"
         }
     }
 }

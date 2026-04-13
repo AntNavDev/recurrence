@@ -5,13 +5,13 @@ Evaluate whether a recurring rule string is due on a given date. Pure PHP 8.2+, 
 ## Installation
 
 ```bash
-composer require anthony/recurrence
+composer require antnavdev/recurrence
 ```
 
 ## Usage
 
 ```php
-use Anthony\Recurrence\Recurrence;
+use AntNavDev\Recurrence\Recurrence;
 use Carbon\Carbon;
 
 $recurrence = new Recurrence('weekly:mon,wed,fri');
@@ -49,7 +49,7 @@ Valid day-of-week codes: `mon`, `tue`, `wed`, `thu`, `fri`, `sat`, `sun`.
 
 ## Exceptions
 
-- `Anthony\Recurrence\InvalidRuleException` (extends `\InvalidArgumentException`) — thrown when the rule string cannot be parsed (e.g. `whenever:tuesday`, `monthly:foo`).
+- `AntNavDev\Recurrence\InvalidRuleException` (extends `\InvalidArgumentException`) — thrown when the rule string cannot be parsed (e.g. `whenever:tuesday`, `monthly:foo`).
 - `\LogicException` — thrown when `isDueOn()` is called with a `biweekly` or `interval` rule but no `anchorDate` was provided.
 
 ## Running tests

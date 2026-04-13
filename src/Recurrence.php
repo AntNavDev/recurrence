@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Anthony\Recurrence;
+namespace AntNavDev\Recurrence;
 
 use Carbon\Carbon;
 

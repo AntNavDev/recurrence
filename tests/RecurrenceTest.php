@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Anthony\Recurrence\Tests;
+namespace AntNavDev\Recurrence\Tests;
 
-use Anthony\Recurrence\InvalidRuleException;
-use Anthony\Recurrence\Recurrence;
+use AntNavDev\Recurrence\InvalidRuleException;
+use AntNavDev\Recurrence\Recurrence;
 use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
 
