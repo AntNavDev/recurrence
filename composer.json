@@ -1,0 +1,23 @@
+{
+    "name": "anthony/recurrence",
+    "description": "Evaluate whether a recurring rule string is due on a given date.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "nesbot/carbon": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anthony\\Recurrence\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Anthony\\Recurrence\\Tests\\": "tests/"
+        }
+    }
+}
