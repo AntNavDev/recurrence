@@ -1,4 +1,4 @@
-# anthony/recurrence
+# antnavdev/recurrence
 
 Evaluate whether a recurring rule string is due on a given date. Pure PHP 8.2+, no framework dependencies.
 
